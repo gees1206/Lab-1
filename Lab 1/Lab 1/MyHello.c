@@ -16,6 +16,7 @@
 #define _CRT_SECURE_NO_WARNINGS // necessary to ignore scanf_s () warnings
 #include <stdio.h> // necessary to use printf () and scanf ()
 
+/*
 AskNum(void) {
 
     printf("Hello World, I am in CptS 121!\n"); //Prints Hello World message
@@ -70,13 +71,16 @@ OhmsLaw() {
 
     printf("Bzzzz... Voltage=%d\n",I*R);
 }
-
+*/
 int main(void) { // the starting point for all C programs
 
-    int select = 99;
-    
+    printf("%f", 5.5 - 11 / 6 + 1 * 2 % 45);
+    /*
     while (select!=0) {
 
+        
+
+        
         //Ask which function to run
         printf("To exit type 0\n");
         printf("Type 1 for \"Ask Numbers\"\n");
@@ -99,6 +103,7 @@ int main(void) { // the starting point for all C programs
         }
         
     }
+    */
 
     printf("\nexit"); //End of sequence
     return 0; // return a success status (value 0) indicating the program worked fine
