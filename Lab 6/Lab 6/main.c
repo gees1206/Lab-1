@@ -8,6 +8,20 @@
 
 int main(void) {
 	
+	int ret[] = {0,0,0,0};
+	int amount = 1530;
+
+	ret[0] = amount / 100;
+	ret[1] = amount % 100 / 50;
+	ret[2] = amount % 100 % 50 / 20;
+	ret[3] = amount % 100 % 50 % 20 / 10;
+
+	for (int i = 0; i < 4; i++) {
+		printf("\n%d", ret[i]);
+	}
+
+
+	/*
 	int range = 100;
 	int nums[200];
 	int num = -range;
@@ -48,6 +62,8 @@ int main(void) {
 
 
 	printf(" %d", r);
+
+	*/
 
 	/*int n = 3, factorial = 1;
 	
