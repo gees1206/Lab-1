@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\Gabriel\Documents\GitHub\Labs\Testing\Testing\main.c(13,14): warning C4013: 'count_alphas' undefined; assuming extern returning int
+C:\Users\Gabriel\Documents\GitHub\Labs\Testing\Testing\main.c(14,12): warning C4013: 'remove_whitespace' undefined; assuming extern returning int
+  Testing.vcxproj -> C:\Users\Gabriel\Documents\GitHub\Labs\Testing\x64\Debug\Testing.exe
